@@ -26,13 +26,13 @@ nav {
 
 ul#menu {
     padding: 0;
-    text-align: center;
+
 }
 
 
 
 ul#menu li {
- display:inline-block;
+ text-align: center;
 }
 
 ul#menu li a {
@@ -41,6 +41,7 @@ ul#menu li a {
     padding: 20px 40px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
+    display: inline-block;
 }
 
 ul#menu li a:hover {
