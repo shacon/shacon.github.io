@@ -16,13 +16,7 @@ nav {
   overflow: hidden;
 }
 
-ul.nav-bar {
-  text-align: center;
-}
 
-ul.nav-bar li {
-  display: inline-block;
-}
 
 
 .nav-bar {
@@ -32,12 +26,13 @@ ul.nav-bar li {
 
 ul#menu {
     padding: 0;
+    text-align: center;
 }
 
 
 
 ul#menu li {
- display:inline;
+ display:inline-block;
 }
 
 ul#menu li a {
