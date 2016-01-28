@@ -27,7 +27,7 @@ nav {
 
 
 
-  .diamond:after { content: '';
+  .diamond:after { content: 'test';
   position: absolute;
   left: -50px;
   top: 50px;
