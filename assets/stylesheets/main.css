@@ -14,7 +14,7 @@ body {
 
 .nav-bar {
   position: absolute;
-  top:0;
+  top:0;ing
   bottom: 0;
   left: 0;
   right: 0;
@@ -35,7 +35,7 @@ ul#menu li {
 }
 
 ul#menu li a {
-    background-color: black;
+    background-color: #4A536C;
     color: white;
     padding: 40px 60px;
     text-decoration: none;
