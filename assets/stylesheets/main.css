@@ -17,8 +17,13 @@ nav {
 }
 
 
+
+
+
 .nav-bar {
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 ul#menu {
