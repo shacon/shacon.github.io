@@ -18,7 +18,7 @@ nav {
 
 
 
-ul
+ul li
 {
   list-style-type: none;
   display:inline;
@@ -27,8 +27,8 @@ ul
 
 .circle
 {
-  width:50%;
-  height:50%;
+  width:30%;
+  height:30%;
   border-radius:50%;
   font-size:50px;
   color:#fff;
