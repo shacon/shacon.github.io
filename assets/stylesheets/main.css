@@ -1,8 +1,11 @@
 body {
 
-  /*background-image: url("images/backgroundlight.jpg");*/
-  background-color: #333;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+  /*another possible background*/
+  /*http://mech.sharif.ir/~rehab/wp-content/uploads/2013/02/bg.jpg*/
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMV6vuwI5G8XUpxdkbetbFxgQXnSUKz4awxQt6qLhcJ03jlwC-gQ");
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  font-family: "Syncopate";
   font-weight: 300;
   font-size: 15px;
   margin: 0;
@@ -35,8 +38,8 @@ ul#menu li {
 }
 
 ul#menu li a {
-    background-color: #4A536C;
-    color: white;
+    background-color: #624161;
+    color: #D4CDBC;
     padding: 40px 60px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
