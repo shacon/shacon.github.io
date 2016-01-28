@@ -15,37 +15,26 @@ nav {
   overflow: hidden;
 }
 
- .diamond { width: 0;
-  height: 0;
-  border: 50px solid transparent;
-  border-bottom-color: red;
+
+
+
+ul
+{
+  list-style-type: none;
+  display:inline;
+
+}
+
+.circle
+{
+  width:50%;
+  height:50%;
+  border-radius:50%;
   font-size:50px;
   color:#fff;
   line-height:500px;
   text-align:center;
   background:#000
-  }
-
-  .diamond:after { content: 'test';
-  position: absolute;
-  left: -50px;
-  top: 50px;
-  width: 0;
-  height: 0;
-  border: 50px solid transparent;
-  border-top-color: red;
-}
-
-.circle
-{
-width:500px;
-height:500px;
-border-radius:50%;
-font-size:50px;
-color:#fff;
-line-height:500px;
-text-align:center;
-background:#000
 }
 
 nav ul{
