@@ -16,14 +16,18 @@ nav {
   overflow: hidden;
 }
 
+ul.nav-bar {
+  text-align: center;
+}
 
-
+ul.nav-bar li {
+  display: inline-block;
+}
 
 
 .nav-bar {
   text-align: center;
-  display: inline-block;
-  vertical-align: middle;
+
 }
 
 ul#menu {
