@@ -33,7 +33,7 @@ nav {
 
 
 
-/*  .diamond:after { content: 'test';
+  .diamond:after { content: 'test';
   position: absolute;
   left: -50px;
   top: 50px;
@@ -41,7 +41,7 @@ nav {
   height: 0;
   border: 50px solid transparent;
   border-top-color: red;
-}*/
+}
 
 nav ul{
   margin: 0 50px;
