@@ -24,6 +24,10 @@ nav {
   transform: translate(0, -50%)
   }
 
+ .diamond p {
+   left: 50%;
+   margin-right: -50%;
+ }
 
 
 
