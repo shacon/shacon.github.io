@@ -15,26 +15,29 @@ nav {
   overflow: hidden;
 }
 
-
-
-
-ul li
-{
-  list-style-type: none;
-  display:inline;
-
+.nav-bar {
+   vertical-align: middle
 }
 
-.circle
-{
-  width:30%;
-  height:30%;
-  border-radius:50%;
-  font-size:50px;
-  color:#fff;
-  line-height:500px;
-  text-align:center;
-  background:#000
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+ display:inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
 }
 
 nav ul{
