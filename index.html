@@ -7,6 +7,32 @@
   <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8" />
   <title>Shannon Cochran</title>
   <link rel="stylesheet" href="assets/stylesheets/main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+    var hideall = function {
+          $(".about").hide();
+          $(".resume").hide();
+          $(".work-samples").hide();
+        }
+
+    hideall()
+         $(".about").on("click", function(event){
+                hideall()
+                $(".about").show();
+              }
+         $(".resume").on("click", function(event)){
+               hideall()
+               $("resume").show();
+         }
+         $(".work-samples").on("click", function(event)){
+               hideall()
+               $("resume").show();
+         }
+    });
+    </script>
+
 </head>
 <body>
   <header>
@@ -26,10 +52,16 @@
 </ul>
 </div>
 
-</body>
-</html>
 
-
+<div class="about">
+<embed src="images/about.pdf" alt="About"style="width:600px;height:450px;" type='application/pdf' />
+</div>
+<div class="resume">
+<embed src="images/resume.pdf" alt="About"style="width:600px;height:450px;" type='application/pdf' />
+</div>
+<div class ="work-samples">
+<embed src="images/work_samples.pdf" alt="About"style="width:600px;height:450px;" type='application/pdf' />
+<div>
 
 
 </body>
