@@ -22,8 +22,8 @@ p {
   text-align: center;
   line-height: 75px;
   font-size: 2.5em;
-  color: white;
-  text-decoration: none;
+
+
 
 }
 
@@ -31,7 +31,7 @@ p a {
   color: white;
   text-decoration: none;
 }
-p a:hover{
+p:hover{
   color: black;
 }
 .nav-bar {
