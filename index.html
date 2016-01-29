@@ -10,13 +10,11 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-
-
           $(".about").hide();
           $(".resume").hide();
           $(".work-samples").hide();
 
-          $(".about").click(function(){
+          $(".about-page").click(function(){
              $(".about").show();
           });
 
@@ -33,10 +31,10 @@
 <div class="title-name">
 <p><a href=""><strong>Shannon Cochran</strong></a><p>
 </div>
-<div class="nav-bar">
 
+<div class="nav-bar">
 <ul id="menu" align="center">
-  <li><a href="">About</a></li>
+  <li class="about-page"><a href="">About</a></li>
   <li><a href="">Resume</a></li>
   <li><a href="">Work Samples</a></li>
   <li><a href="https://shannonjcochran.wordpress.com/">Blog</a></li>
@@ -45,13 +43,13 @@
 
 
 <div class="about">
-<embed src="images/about.pdf" alt="About"style="width:600px;height:450px;" type='application/pdf' />
+  <embed src="images/about.pdf" alt="About"style="width:600px;height:450px;" type='application/pdf' />
 </div>
 <div class="resume">
-<embed src="images/resume.pdf" alt="Resume"style="width:600px;height:450px;" type='application/pdf' />
+  <embed src="images/resume.pdf" alt="Resume"style="width:600px;height:450px;" type='application/pdf' />
 </div>
 <div class ="work-samples">
-<embed src="images/work_samples.pdf" alt="Work Samples"style="width:600px;height:450px;" type='application/pdf' />
+  <embed src="images/work_samples.pdf" alt="Work Samples"style="width:600px;height:450px;" type='application/pdf' />
 </div>
 
 
