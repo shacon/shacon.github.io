@@ -9,10 +9,6 @@ html {
 
 
 body {
-
-
-  /*another possible background*/
-  /**/
   /*background-image: url("http://mech.sharif.ir/~rehab/wp-content/uploads/2013/02/bg.jpg");*/
   font-family: "Syncopate";
   font-weight: 300;
@@ -22,15 +18,20 @@ body {
 
 }
 
+p {
+  text-align: center;
 
+}
 
+p a:hover{
+  color: black;
+}
 .nav-bar {
   position: absolute;
   top:0;ing
   bottom: 0;
   left: 0;
   right: 0;
-
   margin: auto;
 }
 
@@ -39,8 +40,6 @@ ul#menu {
     text-align: center;
     line-height: 300px;
 }
-
-
 
 ul#menu li {
  display:inline;
