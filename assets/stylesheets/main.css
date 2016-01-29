@@ -28,7 +28,7 @@ p a {
   color: white;
   text-decoration: none;
 }
-p a:hover{
+p:hover a{
   color: black;
 }
 .nav-bar {
