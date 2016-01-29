@@ -28,7 +28,7 @@ p a {
   color: white;
   text-decoration: none;
 }
-p:hover a{
+.title-name:hover a{
   color: black;
 }
 .nav-bar {
