@@ -20,6 +20,10 @@ body {
 
 p {
   text-align: center;
+  line-height: 150px;
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
 
 }
 
