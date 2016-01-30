@@ -31,6 +31,8 @@ p a {
 .title-name:hover a{
   color: black;
 }
+
+
 .nav-bar {
   position: absolute;
   top:0;
@@ -60,4 +62,10 @@ ul#menu li a {
 
 ul#menu li a:hover {
     background-color: rgba(100, 183, 216, 0.71);
+}
+
+.menu-elements {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
