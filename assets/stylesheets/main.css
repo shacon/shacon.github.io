@@ -77,6 +77,6 @@ img.center {
 }
 
 .resume {
-   line-height: 200%
-   vertical-align: 75px;
+   position: fixed;
+   bottom: 10em;
 }
