@@ -77,6 +77,6 @@ img.center {
 }
 
 .resume {
-   display: table-cell;
+   line-height: 200%
    vertical-align: 75px;
 }
