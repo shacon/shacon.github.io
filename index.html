@@ -10,6 +10,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
+          $("#includedContent").load("images/resume.html");
           $(".about").hide();
           $(".resume").hide();
           $(".work-samples").hide();
@@ -54,7 +55,7 @@
       <img src="images/about.png" alt="About"style="width:600px;height:450px;"/>
     </div>
     <div class="resume">
-      <img src="images/resume.png" alt="Resume"style="width:600px;height:450px;"/>
+      <div id="includedContent"></div>
     </div>
     <div class ="work-samples">
       <img src="images/work_samples.pdf" alt="Work Samples"style="width:600px;height:450px;" />
