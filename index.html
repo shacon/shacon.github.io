@@ -14,14 +14,23 @@
           $(".resume").hide();
           $(".work-samples").hide();
           $(".about-page").click(function(){
+            $(".resume").hide();
+            $(".work-samples").hide();
              $(".about").show();
              return false;
           });
           $(".resume-page").click(function(){
+            $(".work-samples").hide();
+            $(".about").hide();
              $(".resume").show();
              return false;
           });
-
+          $(".work-samples").click(function(){
+            $(".about").hide();
+            $(".resume").hide();
+             $(".work-samples").show();
+             return false;
+          });
     });
     </script>
 
