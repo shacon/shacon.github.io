@@ -16,22 +16,33 @@
           $(".about").hide();
           $(".resume").hide();
           $(".work-samples").hide();
+          $(".contact").hide();
           $(".about-page").click(function(){
             $(".resume").hide();
             $(".work-samples").hide();
-             $(".about").show();
+            $(".contact").hide();
+            $(".about").show();
              return false;
           });
           $(".resume-page").click(function(){
             $(".work-samples").hide();
             $(".about").hide();
-             $(".resume").show();
+            $(".contact").hide();
+            $(".resume").show();
              return false;
           });
           $(".work-samples").click(function(){
             $(".about").hide();
+            $(".contact").hide();
             $(".resume").hide();
-             $(".work-samples").show();
+            $(".work-samples").show();
+             return false;
+          });
+           $(".contact").click(function(){
+            $(".resume-page").hide();
+            $(".about").hide();
+            $(".work-samples").hide();
+             $(".resume").show();
              return false;
           });
     });
@@ -51,7 +62,6 @@
       <li><a href="https://shannonjcochran.wordpress.com/">Blog</a></li>
     </ul>
   </div>
-
   <div class="menu-elements">
     <div class="about">
       <img src="images/about.png" alt="About"style="width:600px;height:450px;"/>
