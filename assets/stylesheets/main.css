@@ -66,7 +66,7 @@ img.center {
 
 .menu-elements {
    width: 700px ;
-   display: block;
+   display: inline-block;
    margin-left: auto ;
    margin-right: auto ;
 }
