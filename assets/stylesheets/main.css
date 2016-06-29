@@ -79,5 +79,6 @@ img.center {
 }
 i.fa {
   color: white;
+  display:inline-block;
 }
 }
