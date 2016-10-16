@@ -64,6 +64,13 @@ img.center {
     margin: 0 auto;
 }
 
+.about {
+  display: block;
+  margin-top: 10em;
+  font-family: "Andika";
+
+}
+
 .menu-elements {
    width: 700px ;
    display: block;
@@ -84,4 +91,3 @@ i.fa {
 li a {
   margin:5px;
 }
-
