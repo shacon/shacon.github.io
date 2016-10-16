@@ -20,7 +20,7 @@ body {
 p {
   text-align: center;
   line-height: 75px;
-  font-size: 2.5em;
+  font-size: 1.75em;
 }
 
 p a {
@@ -71,6 +71,13 @@ img.center {
 
 }
 
+.contact {
+  display: block;
+  margin-top: 10em;
+  font-family: "Andika";
+
+}
+
 .menu-elements {
    width: 700px ;
    display: block;
@@ -90,4 +97,8 @@ i.fa {
 
 li a {
   margin:5px;
+}
+
+h1 {
+  text-align: center;
 }
