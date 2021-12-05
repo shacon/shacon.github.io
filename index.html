@@ -1,0 +1,97 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
+
+  <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8" />
+  <title>Shannon Cochran</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation-flex.min.css"></script>
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Andika" />
+  <script src="https://use.fontawesome.com/517c7ad952.js"></script>
+    <script>
+    $(document).ready(function(){
+          $("#includedContent").load("images/resume.html");
+          $(".about").hide();
+          $(".resume").hide();
+          $(".work-samples").hide();
+          $(".contact").hide();
+          $(".about-page").click(function(){
+            $(".resume").hide();
+            $(".work-samples").hide();
+            $(".contact").hide();
+            $(".about").show();
+             return false;
+          });
+          $(".resume-page").click(function(){
+            $(".work-samples").hide();
+            $(".about").hide();
+            $(".contact").hide();
+//             $(".resume").show();
+             return false;
+          });
+          $(".work-samples").click(function(){
+            $(".about").hide();
+            $(".contact").hide();
+            $(".resume").hide();
+            $(".work-samples").show();
+             return false;
+          });
+           $(".contact-page").click(function(){
+            $(".resume").hide();
+            $(".about").hide();
+            $(".work-samples").hide();
+             $(".contact").show();
+             return false;
+          });
+    });
+    </script>
+
+</head>
+<body>
+  <div class="title-name">
+    <p><a href=""><strong>Shannon Cochran</strong></a><p>
+  </div>
+
+<div class="icon-bar four-up nav-bar">
+  <ul id="menu" align="center">
+  <li><a class="about-page">
+    <i class="fa fa-star fa-3x"></i>
+    <label>About</label>
+  </a></li>
+  <li><a class="resume-page">
+    <i class="fa fa-folder-open-o fa-3x"></i>
+    <label>Resume</label>
+  </a></li>
+  <li><a class="work-samples">
+   <i class="fa fa-camera-retro fa-3x"></i>
+    <label>Work Samples</label>
+  </a></li>
+  <li><a href="https://shannonjcochran.wordpress.com/" class="blog">
+    <i class="fa fa-comments fa-3x"></i>
+    <label>Blog</label>
+  </a></li>
+  <li><a class="contact-page">
+    <i class="fa fa-envelope-o fa-3x"></i>
+    <label>Contact</label>
+  </a></li>
+</div>
+
+  <div class="menu-elements">
+    <div class="about container-fluid">
+         <h1 class="title"> Shannon Cochran</h1>
+         <p> Currently, I work as a full stack developer for the e commmerce company, OpenSky. Since starting in my current role, I've had the opportunity to learn PHP, Mongo and MySQL with a focus on Test-Driven Devlopment.  I love that I get to learn new things everyday and enjoy working on a team with a collaborative culture. </p>
+         <p> Learn more about what I'm up to by checking out my blog. </p>
+    </div>
+    <div class="resume">
+         <p><div id="includedContent" style="width:600px;height:450px;"></div></p>
+    </div>
+    <div class="contact container-fluid">
+        <p> Email me at shannonjc143@gmail.com </p>
+    </div>
+  </div>
+
+</body>
+</html>
