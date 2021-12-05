@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 150px 150px 150px;
+  /*grid-template-rows: 100% 100% 100% 100% 100%;*/
+}
+
+.shape {
+	border: 2px solid orange;
+	width: 95%;
+	height: 95%;
+	background-color: peachpuff;
+}
+
+.box {
+	border-radius: 5px;
+	
+	margin: auto;
+}
+
+.circle {
+  border-radius: 50%
+}
+
